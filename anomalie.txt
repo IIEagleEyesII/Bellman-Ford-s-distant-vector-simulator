@@ -1,0 +1,54 @@
+    def receive(self, data: 'DistantVectorTable'):
+        updated = False
+        neighbor = data.router  # who ever propagated his dvt
+        cost_to_neighbor = self.distantVectorTable_.getCost(neighbor)
+        for (destination, cost, next_hop) in data.items():
+            if destination == self:  # Skip entries about ourselves
+                continue
+            new_estimated_cost = cost_to_neighbor + cost
+            if not self.distantVectorTable_.contains(destination):
+                self.distantVectorTable_.set(destination, new_estimated_cost, neighbor)
+                updated = True
+            else:
+                current_estimated_cost = self.distantVectorTable_.getCost(destination)
+                if current_estimated_cost > new_estimated_cost:
+                    self.distantVectorTable_.set(destination, new_estimated_cost, neighbor)
+                    updated = True
+        if updated:
+            self.propagate(self.distantVectorTable_)
+
+    def receive_(self, data: 'DistantVectorTable'):
+        """Unvalid"""
+        updated = False
+        neighbor = data.router  # who ever propagated his dvt
+        cost_to_neighbor = self.distantVectorTable_.getCost(neighbor)
+        for (destination, cost, next_hop) in data.items():
+            if not self.distantVectorTable_.contains(destination):
+                self.distantVectorTable_.set(destination, cost + cost_to_neighbor, neighbor)
+                updated = True
+            current_estimated_cost = self.distantVectorTable_.getCost(destination) #cost + cost_to_neighbor
+            cost_from_neighbor_to_destination = cost
+            new_estimated_cost = cost_to_neighbor + cost_from_neighbor_to_destination #
+            if current_estimated_cost > cost_to_neighbor + cost_from_neighbor_to_destination: #cost + cost_to_neighbor >? cost_to_neighbor + cost
+                self.distantVectorTable_.set(destination, new_estimated_cost, neighbor)
+                updated = True
+        if updated:
+            self.propagate(self.distantVectorTable_)
+
+    def _receive(self, data: 'DistantVectorTable'):
+        """Valid"""
+        updated = False
+        neighbor = data.router  # who ever propagated his dvt
+        cost_to_neighbor = self.distantVectorTable_.getCost(neighbor)
+        for (destination, cost_from_neighbor_to_destination, next_hop) in data.items():
+            if not self.distantVectorTable_.contains(destination):
+                self.distantVectorTable_.set(destination, cost_from_neighbor_to_destination + cost_to_neighbor, neighbor)
+                updated = True
+            current_estimated_cost = self.distantVectorTable_.getCost(destination)
+            new_estimated_cost = cost_to_neighbor + cost_from_neighbor_to_destination
+            if current_estimated_cost > cost_to_neighbor + cost_from_neighbor_to_destination :
+                #self.distantVectorTable_.set(destination, new_estimated_cost, next_hop)
+                self.distantVectorTable_.set(destination, new_estimated_cost, neighbor)
+                updated = True
+        if updated:
+            self.propagate(self.distantVectorTable_)

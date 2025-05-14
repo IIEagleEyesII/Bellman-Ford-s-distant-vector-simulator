@@ -1,0 +1,192 @@
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(4)], Router(2): [5, Router(4)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(3): [3, Router(5)], Router(1): [4, Router(2)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [4, Router(6)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [18, Router(5)], Router(2): [19, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(5): [5, Router(2)], Router(4): [4, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [4, Router(6)], Router(5): [1, Router(6)], Router(2): [7, Router(4)], Router(1): [8, Router(4)], Router(3): [23, Router(4)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(5): [5, Router(2)], Router(4): [4, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(2): [4, Router(4)], Router(1): [5, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(2): [5, Router(5)], Router(1): [6, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(2): [4, Router(4)], Router(1): [5, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(2): [5, Router(5)], Router(1): [6, Router(5)], Router(3): [3, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(2): [4, Router(4)], Router(1): [5, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(2): [5, Router(5)], Router(1): [6, Router(5)], Router(3): [3, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(2): [5, Router(5)], Router(1): [6, Router(5)], Router(3): [3, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(2): [5, Router(5)], Router(1): [6, Router(5)], Router(3): [3, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(5): [5, Router(2)], Router(4): [4, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(3): [3, Router(5)], Router(1): [4, Router(2)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(2): [5, Router(4)], Router(3): [3, Router(5)], Router(1): [6, Router(4)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(5): [5, Router(2)], Router(4): [4, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(1): [4, Router(2)], Router(3): [3, Router(5)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(2): [4, Router(4)], Router(1): [5, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(2): [5, Router(5)], Router(1): [6, Router(5)]}
+1: 
+ {Router(1): [0, Router(1)], Router(2): [1, Router(1)], Router(3): [7, Router(2)], Router(4): [4, Router(2)], Router(5): [5, Router(2)], Router(6): [6, Router(2)]}
+2: 
+ {Router(2): [0, Router(2)], Router(1): [1, Router(2)], Router(4): [3, Router(2)], Router(3): [6, Router(4)], Router(5): [4, Router(4)], Router(6): [5, Router(4)]}
+3: 
+ {Router(3): [0, Router(3)], Router(1): [7, Router(5)], Router(5): [2, Router(3)], Router(2): [6, Router(5)], Router(4): [3, Router(5)], Router(6): [3, Router(5)]}
+4: 
+ {Router(4): [0, Router(4)], Router(2): [3, Router(4)], Router(5): [1, Router(4)], Router(6): [2, Router(5)], Router(3): [3, Router(5)], Router(1): [4, Router(2)]}
+5: 
+ {Router(5): [0, Router(5)], Router(3): [2, Router(5)], Router(4): [1, Router(5)], Router(6): [1, Router(5)], Router(1): [5, Router(4)], Router(2): [4, Router(4)]}
+6: 
+ {Router(6): [0, Router(6)], Router(4): [2, Router(5)], Router(5): [1, Router(6)], Router(3): [3, Router(5)], Router(1): [6, Router(5)], Router(2): [5, Router(5)]}
